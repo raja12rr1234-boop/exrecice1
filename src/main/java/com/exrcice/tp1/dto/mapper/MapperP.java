@@ -30,7 +30,6 @@ public class MapperP {
         if (request == null) return null;
 
         Product product = new Product();
-        product.setId(request.getId());
         product.setName(request.getName());
         product.setPrice(request.getPrice());
         product.setStouck(request.getStouck());
